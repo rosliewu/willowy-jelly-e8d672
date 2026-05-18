@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enquire · SEIDENHERKUNFT</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__brand">SEIDENHERKUNFT<small>Yúnjǐn · Cloud Brocade of Nanjing</small></a>
+    <ul class="nav__menu">
+      <li><a href="index.html">House</a></li>
+      <li><a href="heritage.html">Heritage</a></li>
+      <li><a href="collection.html">Collection</a></li>
+      <li><a href="other-crafts.html">Other Crafts</a></li>
+      <li><a href="atelier.html">Atelier</a></li>
+      <li><a href="bespoke.html">Bespoke</a></li>
+      <li><a href="contact.html" class="active">Enquire</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="article" style="max-width: 980px; padding-bottom: 3rem;">
+  <div class="article__kicker">Begin a Conversation</div>
+  <h1><em>Enquire</em></h1>
+  <p class="article__dek">
+    The house corresponds in English, German, and Mandarin. Replies within five working days. Every enquiry is read by the founder personally — there is no boilerplate response and no sales channel between you and the workshop.
+  </p>
+</section>
+
+<!-- ============ FOUR PATHS ============ -->
+<section class="section">
+  <header class="section__head">
+    <div class="section__num">§ I — By Type of Commission</div>
+    <div>
+      <h2 class="section__title">Tell us what <em>brings you</em>.</h2>
+      <p class="section__sub">Each route below leads to the same address; the subject line helps the founder route your message and reply with the right material.</p>
+    </div>
+  </header>
+
+  <div class="client-cards">
+    <a href="#form" class="client-card">
+      <div class="client-card__num">i</div>
+      <h3>Museum &amp; Institutional</h3>
+      <p>Exhibition programmes, weaver residencies, museum-shop editions, scholarly publication, press dossier.</p>
+      <span class="client-card__cta">Subject: <em>Institutional enquiry</em> →</span>
+    </a>
+
+    <a href="#form" class="client-card">
+      <div class="client-card__num">ii</div>
+      <h3>Corporate Gifting</h3>
+      <p>Anniversary editions, executive presents, board sets, brand collaborations, brief for an upcoming occasion.</p>
+      <span class="client-card__cta">Subject: <em>Corporate commission</em> →</span>
+    </a>
+
+    <a href="#form" class="client-card">
+      <div class="client-card__num">iii</div>
+      <h3>Diplomatic &amp; State</h3>
+      <p>Protocol gifts, treaty pieces, honorary awards, memorial commissions. By correspondence; in-person presentations available.</p>
+      <span class="client-card__cta">Subject: <em>Protocol commission</em> →</span>
+    </a>
+
+    <a href="#form" class="client-card">
+      <div class="client-card__num">iv</div>
+      <h3>Private &amp; Press</h3>
+      <p>Private collectors; journalists and editors preparing features on yúnjǐn, on the Nanjing tradition, on Chinese textiles in Europe.</p>
+      <span class="client-card__cta">Subject: <em>Private</em> or <em>Press</em> →</span>
+    </a>
+  </div>
+
+  <p style="text-align: center; margin-top: 4rem; font-family: var(--serif-display); font-style: italic; font-size: 1.4rem; color: var(--gold);">
+    rosliewu99@gmail.com
+  </p>
+</section>
+
+<!-- ============ FORM ============ -->
+<section class="section" id="form" style="background: var(--paper-warm); max-width: none;">
+<div style="max-width: 1480px; margin: 0 auto;">
+  <header class="section__head">
+    <div class="section__num">§ II — Enquiry Form</div>
+    <div>
+      <h2 class="section__title">Write to <em>the house.</em></h2>
+      <p class="section__sub">All fields are optional except name, email, and message. The form opens your email client and sends to <em>rosliewu99@gmail.com</em>.</p>
+    </div>
+  </header>
+
+  <form class="form" action="mailto:rosliewu99@gmail.com" method="POST" enctype="text/plain">
+    <div class="form__row">
+      <label for="kind">Nature of the commission</label>
+      <select id="kind" name="Subject">
+        <option>Museum / institutional</option>
+        <option>Corporate gifting</option>
+        <option>Diplomatic / protocol</option>
+        <option>Private collector</option>
+        <option>Press / editorial</option>
+        <option>General enquiry</option>
+      </select>
+    </div>
+
+    <div class="form__row">
+      <label for="name">Your name</label>
+      <input type="text" id="name" name="Name" required>
+    </div>
+
+    <div class="form__row">
+      <label for="org">Institution, corporation, or publication</label>
+      <input type="text" id="org" name="Organisation">
+    </div>
+
+    <div class="form__row">
+      <label for="role">Your role</label>
+      <input type="text" id="role" name="Role" placeholder="e.g. Head of Procurement, Curator, Editor">
+    </div>
+
+    <div class="form__row">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="From" required>
+    </div>
+
+    <div class="form__row">
+      <label for="city">City &amp; country</label>
+      <input type="text" id="city" name="Location">
+    </div>
+
+    <div class="form__row">
+      <label for="occasion">Occasion or timeline, if applicable</label>
+      <input type="text" id="occasion" name="Occasion" placeholder="e.g. 50th anniversary in March; spring exhibition opening">
+    </div>
+
+    <div class="form__row">
+      <label for="quantity">Approximate quantity (for production commissions)</label>
+      <input type="text" id="quantity" name="Quantity" placeholder="e.g. 50 pieces; one singular commission">
+    </div>
+
+    <div class="form__row">
+      <label for="message">Your brief</label>
+      <textarea id="message" name="Message" required placeholder="Tell us, in your own words, what brings you to us. Be as specific or as exploratory as you like."></textarea>
+    </div>
+
+    <div class="form__row" style="display: flex; gap: 1rem; align-items: center; margin-top: 2.5rem;">
+      <button type="submit" class="btn btn--filled">Send</button>
+      <p style="font-family: var(--serif-caption); font-style: italic; font-size: 0.88rem; color: var(--ink-soft);">Replies within five working days.</p>
+    </div>
+  </form>
+</div>
+</section>
+
+<!-- ============ Visit ============ -->
+<section class="section text-center" id="visit">
+  <div class="section__num" style="margin-bottom: 1rem;">§ III — Visit</div>
+  <h2 class="section__title">By <em>appointment</em></h2>
+  <p style="font-family: var(--serif-display); font-style: italic; font-weight: 300; font-size: 1.4rem; max-width: 60ch; margin: 2rem auto; line-height: 1.5;">
+    The founder is based in Bonn, on the Rhine. Sample pieces are available to handle by appointment; institutional clients are welcome to schedule a visit. For larger commissions, in-person presentation in Vienna, Berlin, Paris, London, or Brussels can be arranged.
+  </p>
+  <p style="font-family: var(--serif-caption); font-style: italic; color: var(--ink-soft);">
+    Bonn · Nanjing
+  </p>
+</section>
+
+<!-- ============ PAYMENT ============ -->
+<section class="section" id="settle" style="background: var(--paper-warm); max-width: none;">
+<div style="max-width: 880px; margin: 0 auto;">
+  <header style="text-align: center; margin-bottom: 2.5rem;">
+    <div class="section__num" style="margin-bottom: 1rem;">§ IV — Settle a Sample Fee, Deposit, or Invoice</div>
+    <h2 class="section__title">By <em>PayPal</em>, by agreement.</h2>
+    <p style="font-family: var(--serif-caption); font-style: italic; color: var(--ink-soft); max-width: 55ch; margin: 1.5rem auto 0;">
+      For sample fees, deposits, and small-order settlement, payment is accepted via PayPal. The amount is agreed in correspondence beforehand; the link below opens a secure PayPal page where the agreed amount can be entered and paid in any major currency.
+    </p>
+  </header>
+  <div style="text-align: center;">
+    <a href="https://paypal.me/HaoruiWu99" target="_blank" rel="noopener" class="btn btn--filled" style="padding: 1.1rem 2.5rem;">Settle via PayPal</a>
+    <p style="margin-top: 1.5rem; font-family: var(--serif-caption); font-style: italic; font-size: 0.85rem; color: var(--ink-soft);">
+      For invoices over €5,000 we recommend bank transfer (SEPA / SWIFT) — details supplied with the invoice.<br>
+      For invoices in CNY, alternative payment routes are available on request.
+    </p>
+  </div>
+</div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__col">
+      <div class="footer__brand">SEIDENHERKUNFT</div>
+      <p class="footer__tag">Yúnjǐn — the cloud brocade of Nanjing. Bespoke commissions in direct partnership with the Nanjing Yúnjǐn Museum &amp; Research Institute.</p>
+    </div>
+    <div class="footer__col">
+      <h4>The House</h4>
+      <ul>
+        <li><a href="heritage.html">Heritage</a></li>
+        <li><a href="atelier.html">The Atelier</a></li>
+        <li><a href="bespoke.html">Bespoke</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h4>What We Make</h4>
+      <ul>
+        <li><a href="collection.html">By Muster</a></li>
+        <li><a href="collection.html#forms">By Form</a></li>
+        <li><a href="other-crafts.html">Other Crafts</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h4>Maison</h4>
+      <ul>
+        <li><a href="contact.html">Enquiries</a></li>
+        <li><a href="contact.html?subject=press">Press</a></li>
+        <li><a href="contact.html?subject=visit">Visit</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>© SEIDENHERKUNFT · All commissions signed and numbered.</span>
+    <span>rosliewu99@gmail.com · Bonn / Nanjing</span>
+  </div>
+</footer>
+
+</body>
+</html>
