@@ -3,7 +3,7 @@
 A seven-page editorial website for SEIDENHERKUNFT, the European bespoke partner of the **Nanjing Yúnjǐn Museum & Research Institute** (南京历代云锦博物馆 / 南京云锦研究所). This version repositions the site from consumer retail to **bespoke commission for institutional and high-value clients**.
 
 - **Brand:** SEIDENHERKUNFT (German: "the provenance of silk")
-- **Founder:** Roslie Wu — doctoral candidate in philosophy, Bonn
+- **Founder:** Haorui Wu — doctoral candidate in philosophy, Bonn
 - **Contact:** rosliewu99@gmail.com
 - **Operating base:** Bonn · Nanjing
 - **Target audience:** Museums, corporations, diplomatic protocol offices, private collectors
